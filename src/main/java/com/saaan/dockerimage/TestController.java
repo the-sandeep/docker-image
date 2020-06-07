@@ -15,7 +15,7 @@ public class TestController {
 
     @GetMapping("/messageOne")
     public String getMessageOne() {
-        return "Hello test docker!!messageOne next";
+        return "Hello test docker!!messageOne next2";
     }
 
 }
