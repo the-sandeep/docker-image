@@ -13,4 +13,9 @@ public class TestController {
         return "Hello test docker!!";
     }
 
+    @GetMapping("/messageOne")
+    public String getMessageOne() {
+        return "Hello test docker!!messageOne";
+    }
+
 }
